@@ -13,7 +13,7 @@ This project allows you to add employees to a database via a web form and upload
 
 ### Step 1: Clone the Repository
 
-```sh
+sh
 git clone https://github.com/yourusername/employee-management-system.git
 cd employee-management-system
 
