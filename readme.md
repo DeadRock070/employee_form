@@ -14,8 +14,8 @@ This project allows you to add employees to a database via a web form and upload
 ### Step 1: Clone the Repository
 
 sh
-git clone https://github.com/yourusername/employee-management-system.git
-cd employee-management-system
+git clone https://github.com/DeadRock070/employee_form-system.git
+cd employee_form
 
 ## Create the Database and Table
 Log in to the MySQL server:
