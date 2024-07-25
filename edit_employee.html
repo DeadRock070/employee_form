@@ -1,0 +1,39 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Edit Employee</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <h2>Edit Employee</h2>  
+    <form action="edit_employee.php?id=<!--Employee_ID_HERE-->" method="post" enctype="multipart/form-data">  
+        <div class="form-group">  
+            <label for="firstname">First Name</label>  
+            <input type="text" id="firstname" name="firstname" value="<!--Current_FirstName-->" required>  
+        </div>  
+        <div class="form-group">  
+            <label for="lastname">Last Name</label>  
+            <input type="text" id="lastname" name="lastname" value="<!--Current_LastName-->" required>  
+        </div>  
+        <div class="form-group">  
+            <label for="email">Email</label>  
+            <input type="email" id="email" name="email" value="<!--Current_Email-->" required>  
+        </div>  
+        <div class="form-group">  
+            <label for="phone">Phone</label>  
+            <input type="text" id="phone" name="phone" value="<!--Current_Phone-->">  
+        </div>  
+        <div class="form-group">  
+            <label for="position">Position</label>  
+            <input type="text" id="position" name="position" value="<!--Current_Position-->" required>  
+        </div>  
+        <div class="form-group">  
+            <label for="profile_picture">Profile Picture</label>  
+            <input type="file" id="profile_picture" name="profile_picture" accept="image/*">  
+            <img src="<!--Current_Profile_Picture-->" width="50" height="50" alt="">  
+        </div>  
+        <button type="submit">Update Employee</button>  
+    </form>  
+</body>  
+</html>

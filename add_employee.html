@@ -1,0 +1,38 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Add Employee</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <h2>Add Employee</h2>  
+    <form action="add_employee.php" method="post" enctype="multipart/form-data">  
+        <div class="form-group">  
+            <label for="firstname">First Name</label>  
+            <input type="text" id="firstname" name="firstname" required>  
+        </div>  
+        <div class="form-group">  
+            <label for="lastname">Last Name</label>  
+            <input type="text" id="lastname" name="lastname" required>  
+        </div>  
+        <div class="form-group">  
+            <label for="email">Email</label>  
+            <input type="email" id="email" name="email" required>  
+        </div>  
+        <div class="form-group">  
+            <label for="phone">Phone</label>  
+            <input type="text" id="phone" name="phone">  
+        </div>  
+        <div class="form-group">  
+            <label for="position">Position</label>  
+            <input type="text" id="position" name="position" required>  
+        </div>  
+        <div class="form-group">  
+            <label for="profile_picture">Profile Picture</label>  
+            <input type="file" id="profile_picture" name="profile_picture" accept="image/*">  
+        </div>  
+        <button type="submit">Add Employee</button>  
+    </form>  
+</body>  
+</html>
