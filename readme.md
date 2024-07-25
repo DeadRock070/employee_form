@@ -23,10 +23,10 @@ Log in to the MySQL server:
 mysql -u root -p
 
 Usage
-Open the web form in your browser: http://localhost:8000/index.html.
-Fill out the form and upload a profile picture.
-Submit the form to add the employee to the database.
-Troubleshooting
-Ensure the uploads directory has the correct permissions.
-Verify your database connection details in add_employee.php.
-Check the PHP error log for any issues.
+Open the web form in your browser:
+- Fill out the form and upload a profile picture.
+- Submit the form to add the employee to the database.
+## Troubleshooting
+- Ensure the uploads directory has the correct permissions.
+- Verify your database connection details in add_employee.php.
+- Check the PHP error log for any issues.
